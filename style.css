@@ -303,7 +303,7 @@ animation: color 10s ease-in-out infinite;
                 .ADI1{
                     max-width: 100%;
                     height: auto;
-                    display: none;
+                    display:none;
                 }
                 .ADI0{
                     max-width: 100%;
@@ -362,23 +362,27 @@ animation: color 10s ease-in-out infinite;
 
 
 
-@media (max-width: 476px) { 
-    #ad6{
-        font-size: 1rem;
-    }
+
+
     
- }
+ 
 @media (max-width: 768px) {
     .ADI0 {
         max-width: 100%;
         height: auto;
         display: none;
 
- }
+ 
 }
  .ADI1{
     max-width: 100%;
     height: auto;
     display:block;
  }
+ }
 
+ @media (max-width: 476px) { 
+    #ad6{
+        font-size: 1rem;
+    }
+ }
